@@ -1,4 +1,4 @@
-import logo from '../images/Vector.svg'
+import logo from '../images/velorettilogo.svg'
 import acc from '../images/acc.svg'
 import cart from '../images/cart.svg'
 import lang from '../images/lang.svg'

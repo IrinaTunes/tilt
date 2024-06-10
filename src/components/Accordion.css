@@ -1,0 +1,48 @@
+/* Стили для каждого элемента аккордеона */
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+/* Стили для заголовка аккордеона */
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 35px;
+
+    width: 1000px;
+    height: 31.75px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+/* Стили для содержимого аккордеона */
+.accordion-content {
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+    margin-bottom: 35px;
+    margin-top: 25px;
+    width: 895.78px;
+    height: 63px;
+    padding: 0px 98.78px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+    color: #14161599;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+
+/* Удаляем верхнюю границу содержимого, когда аккордеон открыт */
+.accordion-item.open .accordion-content {
+    border-top: none;
+}

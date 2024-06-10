@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    background-color: #ffffff;
     
 }
 .header-name img {
@@ -21,6 +22,7 @@
 .header-name {
     display: flex;
     gap: 20px;
+    border: none;
 }
 .header-name select { 
     border: 0px;
@@ -34,6 +36,7 @@
 .header-right{
     display: flex;
     align-items: center;
+    border: none;
 }
 
 .bike {
@@ -310,144 +313,7 @@
 .work{
     margin-right: 60px;
 }
-.bikesixth{
-    display: flex;
-    justify-content: space-evenly;
 
-}
-.blokone{
-    align-items: center;
-    width: 636.98px;
-    height: 695px;
-    padding: 40px 30px 40px 30px;
-    gap: 0px;
-    border-radius: 8px 8px 8px 8px;
-    justify-content: space-around;
-    opacity: 0px;
-
-
-    background-color: #EBEDEE;
-}
-.blokone-name{
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-    
-}
-.blokone-name-fs{
-    display: flex;
-    
-}
-.blokone-name-first{
-    width: 190px;
-}
-.blokone-name-second{
-    
-}
-.blokone-name-third{
-    justify-content: right;
-    margin-left: 140px;
-    
-}
-.bloktwo{
-    align-items: center;
-    width: 636.98px;
-    height: 695px;
-    padding: 40px 30px 40px 30px;
-    gap: 0px;
-    border-radius: 8px 8px 8px 8px;
-    justify-content: space-around;
-    opacity: 0px;
-
-
-    background-color: #EBEDEE;
-}
-.blokone-bike{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.butone{
-    
-    border: none;
-}
-.butsec{
-    border: none;
-}
-.blokone-color{
-    margin-top: 40px;
-    margin-left: 215px;
-    
-    
-}
-
-
-.bloktwo{
-    
-    width: 636.98px;
-    height: 695px;
-    padding: 40px 30px 40px 30px;
-    gap: 0px;
-    border-radius: 8px 8px 8px 8px;
-    justify-content: space-around;
-    opacity: 0px;
-
-
-    background-color: #EBEDEE;
-}
-.bloktwo-name{
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-    
-}
-.bloktwo-name-fs{
-    display: flex;
-    
-}
-.bloktwo-name-first{
-    width: 175px;
-}
-.bloktwo-name-second{
-    
-}
-.bloktwo-name-third{
-    justify-content: right;
-    margin-left: 140px;
-    width: px;
-}
-.bloktwo{
-    width: 636.98px;
-    height: 695px;
-    padding: 40px 30px 40px 30px;
-    gap: 0px;
-    border-radius: 8px 8px 8px 8px;
-    justify-content: space-around;
-    opacity: 0px;
-
-
-    background-color: #EBEDEE;
-}
-.bloktwo-bike{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.butone{
-    background-color: transparent;
-    border: none;
-    font-size: 50px;
-}
-.butsec{
-    background-color: transparent;
-    border: none;
-    font-size: 50px;
-}
-.bloktwo-color{
-    margin-top: 40px;
-    margin-left: 215px;
-    
-}
 
 .touch{
     display: grid;
@@ -476,21 +342,27 @@
 .inputtwo{
     display: grid;
     justify-content: center;
-    width: 1000%;
     height: 57px;
-    padding: 23px 21px 20px 21px;
+    padding: 2px 21px 30px 21px;
     gap: 0px;
     border-radius: 2px 2px 2px 2px;
     border: 1px 1px 1px 1px;
     opacity: 0px;
     border-color: #1416151A;
     font-size: 1200%;
-    /* border: 1px;
-    width: 100%;
-    height: 57px; */
     
 }
+.touch select{
+    width: 983px;
+    padding: 23px 21px 20px 21px;
+    padding-right: 100px;
+    gap: 0px;
+    border-radius: 2px 2px 2px 2px;
+    border: 2px 2px 2px 2px;
+    opacity: 0px;
+    border: solid 0.15rem #1416151A;
 
+}
 
 .touchbut{
     width:980px;
@@ -505,107 +377,7 @@
 
 }
 
-.questblok{
-    margin-bottom: 80px;
-    display: grid;
-    justify-content: center;
-}
-.quest-name{
-    font-weight: 450;
-    line-height: 120px;
-    font-size: 120px;
-    margin-top: 150px;
-    width: 912px;
-    height: 120px;
-    gap: 0px;
-    opacity: 0px;
 
-}
-.questfirst{
-    border-width: 1px 0px 1px 0px;
-    border-style: solid;
-    border-color: #1416151A;
-    margin-left: 35px;
-    margin-top: 60px;
-}
-.questfirstone{
-    
-    display: flex;
-    justify-content: space-between;
-}
-.quest-pod{
-    margin-bottom: 35px;
-    margin-top: 25px;
-    width: 895.78px;
-    height: 63px;
-    padding: 0px 98.78px 0px 0px;
-    gap: 0px;
-    opacity: 0px;
-    color: #14161599;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: left;
-
-}
-.quest-nazv1{
-    
-    margin-top: 35px;
-    font-size: 30px;
-    font-weight: 550;
-    line-height: 31.75px;
-    text-align: left;
-
-
-    width: 1000px;
-    height: 31.75px;
-    gap: 0px;
-    opacity: 0px;
-}
-.quest-nazv{
-    margin-top: 35px;
-    font-size: 30px;
-    font-weight: 550;
-    line-height: 31.75px;
-    text-align: left;
-    margin-bottom: 35px;
-
-    width: 1000px;
-    height: 31.75px;
-    gap: 0px;
-    opacity: 0px;
-}
-.questsecond{
-    border-width: 1px 0px 1px 0px;
-    border-style: solid;
-    border-color: #1416151A;
-    display: flex;
-    margin-left: 35px;
-}
-.questthird{
-    border-width: 1px 0px 1px 0px;
-    border-style: solid;
-    border-color: #1416151A;
-    display: flex;
-    margin-left: 35px;
-}
-.questfourth{
-    border-width: 1px 0px 1px 0px;
-    border-style: solid;
-    border-color: #1416151A;
-    display: flex;
-    margin-left: 35px;
-}
-.questfifth{
-    border-width: 1px 0px 1px 0px;
-    border-style: solid;
-    border-color: #1416151A;
-    display: flex;
-    margin-left: 35px;
-}
-.quest-sp{
-    margin-top: 35px;
-}
 .peredpodval{
     
     padding-bottom: 40px;
@@ -639,6 +411,7 @@
     padding-left: 50px;
     justify-content: space-between;
     display: flex;
+    padding-bottom: 150px;
 }
 .podvalfirst{
     
